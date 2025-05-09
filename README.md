@@ -7,7 +7,9 @@ This mini-project demonstrates a full EEG signal classification pipeline using P
 
 ##  📊Project Structure
 
-EEG-Classification/
+
+<pre>
+  EEG-Classification/
 ├── data/
 │   └── S001R03.edf             # EEG file (BCI dataset)
 ├── main.py                     # Load & visualize raw EEG data
@@ -15,7 +17,7 @@ EEG-Classification/
 ├── train_model.py              # Random forest classification
 ├── features.csv                # Extracted features
 └── README.md                   # This file
-
+</pre>
 📌 Objectives
 - Load and filter raw EEG signals using MNE
 
@@ -34,7 +36,7 @@ Sample file: S001R03.edf (Motor Imagery EEG)
 🧠 Feature Extraction
 We compute band power features in these EEG frequency bands:
 
-Band	Frequency (Hz)
+-Band	Frequency (Hz)
 Delta	1–4
 Theta	4–8
 Alpha	8–13
